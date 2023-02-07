@@ -14,7 +14,6 @@ class LoginP extends CI_Model {
             $row = $data->row_array();
             if($row!=NULL){
                 $this->session->set_userdata('idA', $row['idA']);
-                echo $this->session->userdata('idA');
             }else{
                 redirect('Welcome/');
             }

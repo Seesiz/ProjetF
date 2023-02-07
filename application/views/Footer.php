@@ -4,7 +4,7 @@
 
     </div>
     <div class="credits">
-    <strong>Razafitsialonina Tantelisoa Niaina<span> ETU:002077</span></strong>
+    <strong>ANDRIAMPARANY Ny Aro Dina Tsilavo<span> ETU:001932</span></strong>
 
     </div>
     <div class="credits">

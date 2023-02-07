@@ -49,6 +49,10 @@
                   <button class="nav-link" data-bs-toggle="tab" data-bs-target="#profile-change-password">Supprimer Categorie</button>
                 </li>
 
+                <li class="nav-item">
+                  <button class="nav-link" data-bs-toggle="tab" data-bs-target="#profile-info-password">Info</button>
+                </li>
+
               </ul>
               <div class="tab-content pt-2">
 
@@ -77,6 +81,11 @@
 
                 </div>
 
+                <div class="tab-pane fade pt-3" id="profile-info-password">
+                  <h4>Nombre d'utilisateur: <?php echo count($user->result_array())?></h4>
+                  <h4>Nombre d'Echange: <?php echo count($echange->result_array())?></h4>
+                  </div>
+
               </div><!-- End Bordered Tabs -->
 
             </div>
@@ -89,5 +98,9 @@
   </main><!-- End #main -->
 
 </body>
+
+<?php
+$this->load->view("Footer");
+?>
 
 </html>

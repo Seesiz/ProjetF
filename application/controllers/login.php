@@ -5,5 +5,8 @@ class Login extends CI_Controller {
     public function log(){
         $this->load->model('loginP');
         $this->loginP->VERIF($_GET['email'], $_GET['password']);
+        $this->load->model('objet');
+        $this->objet->getAllObjet($this->session->userdata('idA'));
+        
     }
 }
